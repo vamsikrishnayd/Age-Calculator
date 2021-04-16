@@ -1,0 +1,63 @@
+.bg-container {
+  background-image: linear-gradient(to right, #43cbff, #9708cc);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.input-element {
+  height: 40px;
+  width: 300px;
+  font-family: 'Roboto';
+  outline: none;
+  border-radius: 6px;
+}
+
+.err-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  text-align: left;
+}
+
+.result-msg {
+  color: #8e1dd2;
+  font-family: 'Roboto';
+}
+
+.button {
+  background-image: linear-gradient(to right, #43cbff, #9708cc);
+  height: 38px;
+  width: 138px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  border-width: 0px;
+  border-radius: 6px;
+  outline: none;
+}
+
+.persons-img {
+  width: 50%;
+}
